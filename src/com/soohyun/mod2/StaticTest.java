@@ -14,7 +14,9 @@ public class StaticTest {
 	
 	public static void staticMethod() {
 		System.out.println("클래스메서드");
+		//this.instanceMethod();
 		System.out.println(StaticTest.num2);
+		//System.out.println(this.num);
 		
 	}
 	
